@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Details</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type='text/javascript' src='../static/main.js'></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav class ="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <h2 class="navbar-brand">Movie Info</h2>
+        </div>
+        <button class="btn btn-info" type="button" onclick="Logout()" name="button">Logout</button>
+      </div>
+    </nav>
+    <br><br>
+    <div class = "container">
+      <div id = "movieInfo" class ="well">
+        <script type="text/javascript">
+          getMovie();
+        </script>
+      </div>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+  </body>
+</html>
