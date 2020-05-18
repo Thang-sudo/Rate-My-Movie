@@ -19,7 +19,7 @@ def before_request():
 @app.route('/', methods=['GET', 'POST'])
 def main():
     if not g.user:
-        return render_template('login.html')
+        return render_template('index.html')
     else:
         return redirect(url_for('searchMovie'))
 
@@ -45,7 +45,7 @@ def login():
 
         if(CheckResult == True):
             return "True"
-    return render_template('login.html')
+    return render_template('index.html')
 
 
 @app.route('/createUser', methods = ['GET', 'POST'])
@@ -64,7 +64,7 @@ def createUser():
         else:
             return ("False")
 
-    return render_template('login.html')
+    return render_template('index.html')
 
 @app.route('/searchMovie', methods = ['GET', 'POST'])
 def searchMovie():
