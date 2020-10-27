@@ -1,3 +1,4 @@
+Deployed at https://rate-my-movie.herokuapp.com/
 # Rate-My-Movie
 ## A web application allows users to search, add movies to their watch list, and rate movies afterwards
 ### Developed with HTML/CSS, Bootstrap, Python Flask, and Google Firebase
